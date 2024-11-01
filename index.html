@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="screen">
+        <div class="title">Calculator</div>
+        <div class="container">
+            <div class="calculator">
+                <form>
+                    <div class="text-area">
+                        <input type="text" name="display" id="textin">
+                    </div>
+                    <div class="row1">
+                        <button type="button" class="button color" id="AC">AC</button>
+                        <button type="button" class="button color" id="root">&#8730x</button>
+                        <button type="button" class="button color" id="x2">x<sup>2</sup></button>
+                        <button type="button" class="button color" id="divide">&divide;</button>
+                    </div>
+                    <div class="row2">
+                        <button type="button" class="button" id="7">7</button>
+                        <button type="button" class="button" id="8">8</button>
+                        <button type="button" class="button" id="9">9</button>
+                        <button type="button" class="button color" id="mul">&#215;</button>
+                    </div>
+                    <div class="row3">
+                        <button type="button" class="button" id="4">4</button>
+                        <button type="button" class="button" id="5">5</button>
+                        <button type="button" class="button" id="6">6</button>
+                        <button type="button" class="button color" id="minus">-</button>
+                    </div>
+                    <div class="row4">
+                        <button type="button" class="button" id="1">1</button>
+                        <button type="button" class="button" id="2">2</button>
+                        <button type="button" class="button" id="3">3</button>
+                        <button type="button" class="button color" id="plus">+</button>
+                    </div>
+                    <div class="row5">
+                        <button type="button" class="button" id="0">0</button>
+                        <button type="button" class="button" id="dot">.</button>
+                        <button type="button" class="button" id="del"><i class="fa-solid fa-delete-left"></i></button>
+                        <button type="button" class="button color" id="equal">=</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
