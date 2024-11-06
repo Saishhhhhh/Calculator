@@ -2,7 +2,7 @@
 
 A simple and interactive calculator built with HTML, CSS, and JavaScript. This calculator supports basic arithmetic operations, square roots, squares, and provides a clean, modern UI for easy use.
 
-![Calculator Screenshot](./"Screenshot 2024-11-06 212413.png")
+![Calculator Screenshot](https://github.com/Saishhhhhh/Calculator/blob/08ad37740d1765c4ace4a0a678a473885dd8ab56/Screenshot%202024-11-06%20212413.png))
 
 ## Features
 
